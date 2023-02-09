@@ -72,3 +72,9 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+#Ted -- You don't need to version control all the file in folder of .idea.
+.idea/
+
+#Ted -- No need to VS file .vsconfig.
+.vsconfig
