@@ -20,7 +20,7 @@ public:
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadOnly, Category = "TedAbilities")
 	UAbilitySystemComponent *AbilitySystemComponent;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "TedAbilities")
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "TedAbilities")
 	TArray<TSubclassOf<class UGameplayAbility>> PreloadAbilities;
 	
 protected:
